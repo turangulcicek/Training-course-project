@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    // background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    background: linear-gradient(
+      112deg,
+      rgb(50, 61, 61) 10%,
+      rgb(148, 148, 194) 72%
+    );
+  }
+
+ .nav-item a:hover{
+    color: rgba(0, 0, 0, 0.842) !important;
+    transform: scale(1.1);
+    transition: ease .4s;
+ }
+
+ .carousel{
+  position: relative;
+
+  img{
+    border-radius: 50%;
+    height: 450px;
+    object-fit: cover;
+    opacity: .7;
+  }
+
+  &-caption{
+    position: absolute;
+    top: 50%;
+
+    h5, p {
+      color: white;
+      text-shadow: 1px 5px 4px black;
+      font-size: 20px;
+    }
+  }
+ }
+
+ .row{
+
+  .col{
+
+    .card:hover{
+      transform: scale(1.1);
+      transition: .4s;
+
+    }
+  }
+
+ }
+
+ ul{
+  li{
+    list-style-type: none;
+    color: gray;
+    line-height: 2em;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    &:hover{
+      font-size: 18px;
+      transition: .3s;
+    }
+    }
+    span{
+      color: gray;
+
+     
+      }
+
+     
+      }
+
+      
+    
+    i{
+      padding: 3px;
+      color: white;
+      &:hover{
+        color: red;
+        transform: scale(110%);
+        transition: .4s;
+      }
+    }
+  
+ 

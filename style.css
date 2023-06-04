@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: linear-gradient(112deg, rgb(50, 61, 61) 10%, rgb(148, 148, 194) 72%);
+}
+
+.nav-item a:hover {
+  color: rgba(0, 0, 0, 0.842) !important;
+  transform: scale(1.1);
+  transition: ease 0.4s;
+}
+
+.carousel {
+  position: relative;
+}
+.carousel img {
+  border-radius: 50%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.7;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+}
+.carousel-caption h5, .carousel-caption p {
+  color: white;
+  text-shadow: 1px 5px 4px black;
+  font-size: 20px;
+}
+
+.row .col .card:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+ul li {
+  list-style-type: none;
+  color: gray;
+  line-height: 2em;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
+ul a:hover {
+  font-size: 18px;
+  transition: 0.3s;
+}
+ul span {
+  color: gray;
+}
+
+i {
+  padding: 3px;
+  color: white;
+}
+i:hover {
+  color: red;
+  transform: scale(110%);
+  transition: 0.4s;
+}/*# sourceMappingURL=style.css.map */
