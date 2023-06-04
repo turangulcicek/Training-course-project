@@ -8,7 +8,7 @@
 
 ### What I used
 
--Html, Css, Bootstrap
+-Html, Css, Scss, Bootstrap
 
 `Screen`
 
